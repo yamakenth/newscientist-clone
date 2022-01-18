@@ -366,7 +366,7 @@ figcaption .caption {
 
 .article-footer {
   width: 1100px;
-  margin: 16px auto 0;
+  margin: 16px auto 62px;;
 }
 
 .left.container {
@@ -406,4 +406,57 @@ figcaption .caption {
 
 .magazine-link .buy-link {
   background-color: #f00;
+}
+
+.more {
+  width: 1100px;
+  margin: 0 auto 56px;
+}
+
+.more > h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.more-articles {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.more-article {
+  flex: 1;
+  position: relative;
+  width: 259px;
+}
+
+.more-article img {
+  width: 100%;
+  margin-bottom: 11px;
+}
+
+.more-article a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 7px;
+  color: #fff;
+  background-color: #484848;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.more-article a.human {
+  background-color: #79227d;
+}
+
+.more-article a:hover {
+  text-decoration: underline;
+}
+
+.more-article h2 {
+  font-size: 22px;
+  color: #000;
+  font-weight: 600;
 }
