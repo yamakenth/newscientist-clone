@@ -364,3 +364,46 @@ figcaption .caption {
   margin-left: 6px;
 }
 
+.article-footer {
+  width: 1100px;
+  margin: 16px auto 0;
+}
+
+.left.container {
+  width: 780px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.magazine {
+  display: flex;
+  gap: 6px;
+}
+
+.magazine img {
+  width: 185px;
+}
+
+.magazine-link a {
+  display: block;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  width: 185px;
+  padding: 7px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.magazine-link .subscribe-link {
+  background-color: #00b3e5;
+}
+
+.magazine-link .view-link {
+  background-color: #20b2aa;
+}
+
+.magazine-link .buy-link {
+  background-color: #f00;
+}
