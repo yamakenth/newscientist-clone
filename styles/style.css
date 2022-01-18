@@ -229,29 +229,58 @@ nav.article .active a {
   background-color: #3b5998;
 }
 
+.fa-facebook-f:hover {
+  background-color: #3b5898bb;
+}
+
 .fa-twitter {
   background-color: #1da1f2;
+}
+
+.fa-twitter:hover {
+  background-color: #1da1f2bb;
 }
 
 .fa-whatsapp {
   background-color: #4dc247;
 }
 
+.fa-whatsapp:hover {
+  background-color: #4dc247bb;
+}
+
 .fa-linkedin-in {
   background-color: #0077b5;
+}
+
+.fa-linkedin-in:hover {
+  background-color: #0077b5bb;
 }
 
 .fa-reddit-alien {
   background-color: #ff5700;
 }
 
+.fa-reddit-alien:hover {
+  background-color: #ff5700bb;
+}
+
 .fa-pinterest-p {
   background-color: #cb2027;
+}
+
+.fa-pinterest-p:hover {
+  background-color: #cb2027bb;
 }
 
 .fa-envelope,
 .fa-print {
   background-color: #999;
+}
+
+.fa-envelope:hover,
+.fa-print:hover {
+  background-color: #999999bb;
 }
 
 .article-meta h3 {
@@ -387,6 +416,7 @@ figcaption .caption {
 
 .magazine img {
   width: 185px;
+  cursor: pointer;
 }
 
 .magazine-link a {
@@ -404,12 +434,24 @@ figcaption .caption {
   background-color: #00b3e5;
 }
 
+.magazine-link .subscribe-link:hover {
+  background-color: #288eb7;
+}
+
 .magazine-link .view-link {
   background-color: #20b2aa;
 }
 
+.magazine-link .view-link:hover {
+  background-color: #5f9ea0;
+}
+
 .magazine-link .buy-link {
   background-color: #f00;
+}
+
+.magazine-link .buy-link:hover {
+  background-color: #de1d1d;
 }
 
 .more {
@@ -433,11 +475,22 @@ figcaption .caption {
   flex: 1;
   position: relative;
   width: 259px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.more-article:hover h2 {
+  color: #00b3e5;
 }
 
 .more-article img {
   width: 100%;
   margin-bottom: 11px;
+  transition: transform .5s ease;
+}
+
+.more-article:hover img {
+  transform: scale(1.05);
 }
 
 .more-article a {
@@ -559,6 +612,12 @@ form button:hover {
   width: 170px;
 }
 
+.footer-container button[type="button"]:hover,
+.more-on-topic a:hover {
+  background-color: #288eb7;
+  cursor: pointer;
+}
+
 .external-links {
   display: flex;
   justify-content: center;
@@ -573,6 +632,7 @@ form button:hover {
 .external-links img {
   width: 108px;
   height: 32px;
+  cursor: pointer;
 }
 
 .external-links .social-links i {
